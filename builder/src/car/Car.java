@@ -5,6 +5,18 @@ public class Car {
     private int doors;
     private boolean hasSunroof;
 
+    public String getEngine() {
+        return engine;
+    }
+
+    public int getDoors() {
+        return doors;
+    }
+
+    public boolean isHasSunroof() {
+        return hasSunroof;
+    }
+
     private Car(Builder builder) {
         this.engine = builder.engine;
         this.doors = builder.doors;
