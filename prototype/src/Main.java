@@ -27,11 +27,11 @@ public class Main {
         registro.registrar("arqueiro", arqueiro);
 
         // Clonando e customizando
-        Character clone1 = (Character) registro.getPrototype("guerreiro");
+        Character clone1 = registro.getPrototype("guerreiro", Character.class);
         clone1.setName("Guerreiro das Sombras");
         clone1.setArm(new Arm("Espada Sombria"));
 
-        Character clone2 = (Character) registro.getPrototype("arqueiro");
+        Character clone2 = registro.getPrototype("arqueiro", Character.class);
         clone2.setName("Arqueiro do Gelo");
 
         // Exibindo
