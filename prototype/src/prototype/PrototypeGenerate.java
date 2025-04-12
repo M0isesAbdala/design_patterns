@@ -10,8 +10,17 @@ public class PrototypeGenerate {
         prototipos.put(key, prototype);
     }
 
-    public Prototype getPrototype(String key) {
+    public  <T extends Prototype> T getPrototype(String key, Class<T> clazz) {
         Prototype p = prototipos.get(key);
-        return (p != null) ? p.clone() : null;
+        if (p == null) {
+            return null;
+        }
+
+        Prototype clone = p.clone();
+        if (clazz.isInstance(clone)) {
+            return clazz.cast(clone);
+        } else {
+            throw new ClassCastException("O protótipo não é do tipo esperado: " + clazz.getName());
+        }
     }
 }
