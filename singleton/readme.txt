@@ -9,3 +9,4 @@ BENEFÍCIOS
 MALEFÍCIOS
 	
 	. Isso pode causar efeitos colaterais difíceis de rastrear, especialmente em aplicações com múltiplas threads ou ciclos de vida complexos.
+	. Dificuldade de abstrair. Esse padrão sozinho torna díficil o uso de multiplas maneiras.
