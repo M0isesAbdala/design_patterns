@@ -3,3 +3,4 @@ Padrão	Como cria o objeto
   . Abstract Factory - Cria famílias inteiras de objetos
   . Builder - Cria objetos passo a passo, com controle fino
   . Prototype - Cria objetos clonando um protótipo existente
+  . Singleton - Cria instância única de class ou objeto no projeto.
