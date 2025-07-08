@@ -4,3 +4,4 @@ Padrão	Como cria o objeto
   . Builder - Cria objetos passo a passo, com controle fino
   . Prototype - Cria objetos clonando um protótipo existente
   . Singleton - Cria instância única de class ou objeto no projeto.
+  . Adpter ( wrapper ) - Adpta funcionalidades entre recursos distindo afim de cooperação entre os mesmo. 
