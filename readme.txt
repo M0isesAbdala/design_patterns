@@ -8,3 +8,4 @@ Padrões de projeto:
   . Bridge - Desacopla uma abstração de sua implementação que as duas possa variar independentemente.
   . Composite - Agrupa objetos como compontens de forma flexível, recursiva e uniforme.
   . Decorator - Adicionar dinamicamente responsabilidade ao objeto.
+  . Facede - Torna subsistemas mais fácil de se usar.
