@@ -9,3 +9,4 @@ Padrões de projeto:
   . Composite - Agrupa objetos como compontens de forma flexível, recursiva e uniforme.
   . Decorator - Adicionar dinamicamente responsabilidade ao objeto.
   . Facede - Torna subsistemas mais fácil de se usar.
+  . Flyweigth - Modela conceitos ou entidades que são normalmente muito numerosas.
