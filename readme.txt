@@ -10,3 +10,4 @@ Padrões de projeto:
   . Decorator - Adicionar dinamicamente responsabilidade ao objeto.
   . Facede - Torna subsistemas mais fácil de se usar.
   . Flyweigth - Modela conceitos ou entidades que são normalmente muito numerosas.
+  . Proxy - Fornece um marcador de outro objeto para controle de acesso e lógica.
