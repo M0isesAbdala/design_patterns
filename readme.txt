@@ -13,3 +13,4 @@ Padrões de projeto:
   . Proxy - Fornece um marcador de outro objeto para controle de acesso e lógica.
   . Chain of responsability - Da a mais de um objeto oportunidade tratar uma solicitação.
   . Command - Encapsula uma solicitação e assim permitindo parametrizar, enfileirar e desfazer.
+  . Interpreter - Modelar uma linguagem como uma estrutura orientada a objetos, permitindo que você avalie e manipule frases da linguagem em tempo de execução.
