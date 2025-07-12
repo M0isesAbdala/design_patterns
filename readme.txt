@@ -12,3 +12,4 @@ Padrões de projeto:
   . Flyweigth - Modela conceitos ou entidades que são normalmente muito numerosas.
   . Proxy - Fornece um marcador de outro objeto para controle de acesso e lógica.
   . Chain of responsability - Da a mais de um objeto oportunidade tratar uma solicitação.
+  . Command - Encapsula uma solicitação e assim permitindo parametrizar, enfileirar e desfazer.
