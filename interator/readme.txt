@@ -7,8 +7,9 @@ BENEFÍCIOS
 	. Facilita polimorfismo você pode trocar a coleção sem mudar o código de iteração.
 
 	. Adiciona flexibilidade podendo criar iteradores diferentes (ordem inversa, filtrados, etc.).
-	
-	
+
+	. Não expõem a estrutura interna.
+		
 MALEFÍCIOS
 	
 	. Mais classes e código boilerplate ( precisa criar interfaces e classes extras ).
